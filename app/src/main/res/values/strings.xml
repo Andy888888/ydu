@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">要读</string>
+    <string name="clickme">点我</string>
+    <string name="main_lock_screen">锁屏</string>
+    <string name="receiver_open_admin_description">打开超级管理员权限吧</string>
+    <string name="receiver_open_admin_label">你他妈的开不开</string>
+    <string name="getNumber">获取手机号码</string>
+
+
+
+    <string name="net_error">加载失败，点击重试</string>
+    <string name="more_data">加载中…</string>
+    <integer-array name="google_colors">
+        <item>@color/red</item>
+        <item>@color/blue</item>
+        <item>@color/yellow</item>
+        <item>@color/green</item>
+    </integer-array>
+</resources>

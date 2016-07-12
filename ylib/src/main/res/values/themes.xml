@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/blue_sky</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionModeBackground">@color/blue_sky</item>
+        <item name="actionMenuTextAppearance">@style/actionMenuTextAppearance</item>
+        <item name="colorControlActivated">@color/blue_sky</item>
+    </style>
+
+    <style name="actionMenuTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!--浸入式-->
+    <style name="ImmersionTheme" parent="BaseAppTheme">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+</resources>

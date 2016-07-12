@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_padding">10dp</dimen>
+    <dimen name="tv_normal_size">18sp</dimen>
+    <dimen name="tv_smaller_size">15sp</dimen>
+    <dimen name="tv_bigger_size">21sp</dimen>
+</resources>

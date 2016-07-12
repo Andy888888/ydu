@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">demo</string>
+    <string name="getvirtaul">获取号码</string>
+    <string name="inputStaffNo">请输入员工号</string>
+    <string name="staffPhone">员工手机号：</string>
+    <string name="start_recognize">开始识别</string>
+</resources>

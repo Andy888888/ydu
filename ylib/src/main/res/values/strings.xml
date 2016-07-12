@@ -1,0 +1,5 @@
+<resources>
+    <string name="loading">加载中...</string>
+    <string name="load_error">网络出错</string>
+    <string name="network_unenable">网络不给力</string>
+</resources>
