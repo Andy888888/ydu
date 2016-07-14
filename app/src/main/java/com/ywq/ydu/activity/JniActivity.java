@@ -1,5 +1,6 @@
 package com.ywq.ydu.activity;
 
+import android.content.Context;
 import android.support.v7.widget.AppCompatEditText;
 import android.support.v7.widget.AppCompatTextView;
 import android.text.TextUtils;
@@ -68,4 +69,13 @@ public class JniActivity extends BaseActivity implements View.OnClickListener, V
     public void getVirtual(ReceiveNumberBean bean) {
         atv_staff_phone.setText("员工手机号："+bean.getBody().getMsisdn());
     }
+
+    class A implements Thread.UncaughtExceptionHandler {
+
+        @Override
+        public void uncaughtException(Thread thread, Throwable ex) {
+
+        }
+    }
 }
+

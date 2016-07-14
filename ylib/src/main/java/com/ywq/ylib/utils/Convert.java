@@ -14,16 +14,18 @@ public class Convert {
         return StringUtil.EMPTY;
     }
 
-    public static int toInt(Object obj) {
+    public static int toInt(Object obj,int defValue) {
         if (checkObj(obj)) {
 
         }
+        return defValue;
     }
 
-    public static Boolean toBoolean(Object obj) {
+    public static Boolean toBoolean(Object obj,boolean defValue) {
         if (checkObj(obj)) {
 
         }
+        return defValue;
     }
 
 
